@@ -1,0 +1,41 @@
+.sobre{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em 0;
+    position: relative;
+    width: 85vw;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #e3d8b3;
+} 
+.sobre h2{
+    line-height: 600%;
+    font-size: 900px;
+    font-size: 3em;
+    text-align: right;
+    margin: 0 0 1em;
+    font-size: 40px;
+}
+.sobre p {
+    font-family: 'Noto Serif', serif;
+	margin: 0 0 1em;
+    font-size: 30px;
+    text-shadow: -1px -1px 0px #000, 
+                 -1px 1px 0px #000,                    
+
+}
+.p1, .p2{
+    text-align: center;
+}
+.p3{
+    text-align: justify;
+}
+
+.sobre strong {
+	font-weight: bold;
+}
+
+.sobre em {
+	font-style: italic;
+}

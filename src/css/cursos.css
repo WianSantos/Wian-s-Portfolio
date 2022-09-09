@@ -1,0 +1,78 @@
+
+.cursos{
+margin: 0 auto;
+padding: 10px 0;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+color: #e3d8b3;
+}
+.cursos li{
+    display: inline-block;
+	flex-wrap: wrap;
+	text-align: center;
+	width: 28%;
+	vertical-align: top;
+	margin: 0.3% 1.5%;
+	padding: 30px 30px;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.data{
+	padding: 2%;
+}
+.descricao-hide{
+    display: none;
+
+}
+.cursos h3{
+	font-size: 30px;
+}
+.cursos p{
+	font-size: 23px;
+}
+
+.cursos li:hover .descricao-hide{
+    display: block;
+}
+.cursos li:hover h2 {
+	font-size: 34px;
+}
+.curso__caixa{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.desenho{
+	padding-top: 10%;
+	object-fit: contain;
+	width: 90px;
+	height: 90px;
+	padding-bottom: 10%;
+}
+.imagem{
+	padding-top: 10%;
+	object-fit: contain;
+	width: 90px;
+	height: 90px;
+	padding-bottom: 10%;
+}
+.cursos h2 {
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+.descricao, .descricao-hide {
+	font-size: 20px;
+}
+
+.descricao-hide{
+    display: none;
+}
+@media (max-width:380px) {  
+	.cursos h3{
+		font-size: 20px;	
+	}
+	
+	}

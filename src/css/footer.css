@@ -1,0 +1,22 @@
+footer {
+	text-align: center;
+	padding: 20px 0;
+}
+footer img{
+    width: 250px;
+	height: 250px;
+}
+.copyright {
+	color: #FFFFFF;
+	font-size: 20px;
+	margin: 20px 0 0;
+    font-weight: bold;  
+}
+.copyright a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.copyright a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+}

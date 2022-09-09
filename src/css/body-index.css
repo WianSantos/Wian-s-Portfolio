@@ -1,0 +1,11 @@
+
+body{
+	background: linear-gradient(#a580a6, #494e5f);
+}
+
+.about__body{
+    background: linear-gradient(#ffead9, #907e6f);
+}
+.contato__body{
+    background: linear-gradient(#075473, #0d2337);
+}
