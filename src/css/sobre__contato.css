@@ -13,7 +13,7 @@
 
     text-align: center;
     margin: 0 0 1em;
-    font-size: 40px;
+    font-size: 93px;
 }
 .sobre p {
     font-family: 'Noto Serif', serif;
@@ -37,3 +37,15 @@
 .sobre em {
 	font-style: italic;
 }
+
+
+@media ( min-width:200px) and (max-width:450px) {
+     
+    .sobre h2{
+        margin: 0 0 1em;
+        font-size: 70px;
+        max-width: 80vw;
+    }
+  
+  
+  }

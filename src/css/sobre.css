@@ -10,10 +10,10 @@
     color: #e3d8b3;
 } 
 .sobre h2{
-    line-height: 600%;
+    line-height: 300%;
     font-size: 900px;
     font-size: 3em;
-    text-align: right;
+    text-align: center;
     margin: 0 0 1em;
     font-size: 40px;
 }
@@ -38,4 +38,11 @@
 
 .sobre em {
 	font-style: italic;
+}
+
+@media ( min-width:200px) and (max-width:450px) {  
+    .sobre h2{
+        padding: 0em 0;
+        line-height: 610%;}
+
 }

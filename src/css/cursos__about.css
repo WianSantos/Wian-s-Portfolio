@@ -5,21 +5,22 @@
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: #493d05;
+    width: 45%;
     }
     .cursos li{
         display: inline-block;
         flex-wrap: wrap;
         text-align: center;
-        width: 28%;
         vertical-align: top;
         margin: 0.3% 1.5%;
         padding: 30px 30px;
         border: 2px solid #000000;
         border-radius: 10px;
+        width: 33%;
     }
     
     .data{
-        padding: 2%;
+        padding: 0.5em;
     }
     .descricao-hide{
         display: none;
@@ -71,11 +72,28 @@
         display: none;
     }
 
-    @media (max-width:380px) {  
+
+
+
+    	
+
+
+    @media ( min-width:200px) and (max-width:450px) {  
+        .cursos{
+            width: 100%;
+        }
+        .cursos li{
+            width: 33%;
+        }
         .cursos h3{
             font-size: 20px;	
         }
         .cursos p{
             font-size: 20px;
         }
+        .tag_geral{
+            line-height: 1.5;
+        }
     }
+
+

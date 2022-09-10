@@ -1,11 +1,16 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: #2d3436;
-  }
+
   .middle{
     position: absolute;
     transform: translate(-50%,-50%);
+  }
+  .botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+ 
   }
   .btn{
     position: relative;
@@ -14,11 +19,11 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     color: white;
-    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
     text-decoration: none;
-    width: 90px;
-    margin: 15px;
-    margin-left: 42%;
+    width: 10%;
+    margin: 0.3%;
     text-align: center;
     border: 2px solid #ff7675;
     padding: 14px 60px;
@@ -46,7 +51,6 @@ body{
     width: 100%;
   }
   
-  
   .btn2::before{
     width: 100%;
     height: 0%;
@@ -55,25 +59,17 @@ body{
     height: 100%;
   }
 
-  @media (max-width:380px) {
+  @media ( min-width:200px) and (max-width:450px) {
      
-    .btn{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        color: white;
-        font-size: 14px;
-        text-decoration: none;
-        width: 90px;
-        margin: 15px;
-        margin-left: 20%;
-        border: 2px solid #ff7675;
-        padding: 14px 60px;
-        text-transform: uppercase;
-        overflow: hidden;
-        transition: 1s all ease;
-        text-align: center;
+      .botao{
+        margin-top: 20%;
+        margin-bottom: 35%;
       }
-    } 
+
+      .btn{
+        font-size: 30px;
+        width: 32%;
+      }
+    
+    
+    }

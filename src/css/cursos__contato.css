@@ -70,9 +70,16 @@ color: #fff;
 .descricao-hide{
     display: none;
 }
-@media (max-width:380px) {  
+
+
+
+
+
+
+@media ( min-width:200px) and (max-width:450px) {  
 	.cursos h3{
 		font-size: 20px;	
 	}
 	
 	}
+

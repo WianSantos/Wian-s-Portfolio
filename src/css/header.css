@@ -20,7 +20,6 @@
     display: flex;
     position: absolute;
     top: 38%;
-    padding: 2%;
     margin-right: 40%;
 }
 
@@ -41,7 +40,7 @@ nav a:hover{
     color: goldenrod;
 }
 
-@media (max-width:380px) {
+@media ( min-width:200px) and (max-width:450px) {
      
 .caixa-de-navegacao{
     display: flex;
@@ -49,7 +48,7 @@ nav a:hover{
     flex-wrap: wrap;
     justify-content:space-evenly;
     position: relative;
-    width: 50vw;
+    width: 40vw;
     margin: 0 auto;
     font-family: 'Oswald', sans-serif;
     font-size: 4px;
